@@ -1,0 +1,4 @@
+requests==2.26.0
+rich==10.16.0
+SocksiPy_branch==1.01
+stem==1.8.0
