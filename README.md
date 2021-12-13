@@ -26,7 +26,7 @@ Testing the Tor connection:
 curl --socks5 localhost:9050 --socks5-hostname localhost:9050 -s https://check.torproject.org/ | cat | grep -m 1 Congratulations | xargs
 ```
 
-Alter que torrc file:
+Alter the torrc file:
 ```shell
 sudo echo 'ControlPort 9051' >> /etc/tor/torrc
 ```
