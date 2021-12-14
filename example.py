@@ -21,5 +21,5 @@ print("Tor socket request: %s " % requests.get('https://ident.me').text) # Retur
 # After that, every connection that you will make, will use the tor socket.
 
 # Reset the connection with Tor, returning the new IP address, the original socket and the tor socket.
-new_ip_addr, original_socket, tor_socket = tor.NewConnection(original_socket, tor_socket)
+new_ip_addr, original_socket, tor_socket = tor.NewConnection(original_socket = original_socket, tor_socket = tor_socket)
 print("New address after reset: %s " % new_ip_addr)
