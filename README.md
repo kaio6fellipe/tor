@@ -1,7 +1,7 @@
 <a href="https://kaio6fellipe.github.io/"><img src="./images/back-home.png" alt="Home Page" width="50" height="58" style="filter: grayscale(100%)"></a> 
 
 # Information
-> A simple way to connect with [Tor](https://www.torproject.org/) in Python applications. If you want to use the Tor connection in some request, just type ```socket.socket = tor_socket``` before the request, if you want to use your default connection, type ```socket.socket = original_socket``` before the request. Read the [Details](#details) and the [Example](#example) to see how it works.
+> If you want to use the [Tor](https://www.torproject.org/) connection in some request, just type ```socket.socket = tor_socket``` before the request, if you want to use your default connection, type ```socket.socket = original_socket``` before the request. Read the [Details](#details) and the [Example](#example) to see how it works.
 
 # Configuration
 Install some Python packages:
